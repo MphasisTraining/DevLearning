@@ -1,0 +1,28 @@
+#!/bin/bash
+p="pavan"
+k="kiran"
+echo  "first Vs shell script of $p"
+echo "Taught by trainer $k"
+a=10
+echo $a
+b=20
+echo $b
+c=$((a + b))
+echo $c
+d=$((a*b))
+echo $d
+e=$((b/a))
+echo $e
+f=$p+$k
+echo $f
+read -p "enter you name: " n
+echo "your name is "$n
+read -p "enter your income: " s
+echo "your income is: "$s
+normal=100000
+if [ $s -ge $normal ]; then
+
+echo "start a bussinesss"
+else
+echo "you are poor, try hard"
+fi
